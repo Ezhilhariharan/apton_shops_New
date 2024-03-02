@@ -1,0 +1,109 @@
+.authWrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftLayout {
+  width: 55.5vw;
+  height: 100%;
+  border-radius: 0px 40px 40px 0px;
+  overflow: hidden;
+  position: relative;
+}
+.leftLayoutImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rightsText {
+  position: absolute;
+  bottom: 30px;
+  left: 45px;
+  font-size: 0.7vw;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: var(--textBlack);
+}
+
+.rightLayout {
+  width: 44.5vw;
+  height: 100%;
+  overflow-y: scroll;
+}
+/* .back {
+  display: flex;
+  flex-direction: row;
+} */
+.back {
+  display: flex;
+  width: 150px;
+  height: 70px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.backText {
+  font-size: 0.82vw;
+  font-weight: 500;
+  color: var(--darkgrey);
+  margin-left: 7px;
+}
+.back > img {
+  width: 10px;
+  height: 10px;
+}
+
+.header {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.body {
+  height: auto;
+  min-height: 64%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  height: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.authDivider {
+  background-color: var(--authDivider);
+  height: 1px;
+}
+
+/* signin */
+
+.step1Sentence {
+  margin-top: 30px !important;
+  color: var(--textBlack);
+  font-weight: 700;
+  font-size: 0.9vw;
+  margin: 0;
+}
+
+.login {
+  color: var(--textBlack);
+  font-size: 0.82vw;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.navigation {
+  text-decoration: none;
+  color: var(--a);
+  font-size: 0.8vw;
+  font-weight: 600;
+  margin-left: 5px;
+  cursor: pointer;
+}

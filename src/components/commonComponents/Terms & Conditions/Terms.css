@@ -1,0 +1,14 @@
+.Terms-container {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Terms-container > a {
+  text-decoration: none;
+  font-size: 0.75vw;
+  font-weight: 400;
+  color: var(--textBlack);
+  cursor: pointer;
+}

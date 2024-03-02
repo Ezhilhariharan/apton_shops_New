@@ -1,0 +1,23 @@
+.msgPrev {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  background: var(--textWhite);
+  padding: 2% 3%;
+  text-align: justify;
+  border-radius: 0 16px 16px 16px;
+  position: relative;
+}
+
+.msgPrev.leftTop::before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -10px;
+  right: auto;
+  top: 0px;
+  bottom: auto;
+  border: 10px solid;
+  border-color: var(--textWhite) transparent transparent transparent;
+}

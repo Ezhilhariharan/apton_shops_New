@@ -1,0 +1,48 @@
+.profileBox {
+  /* display: none; */
+  /* position: absolute; */
+  /* left: 5vw;
+  bottom: 20px; */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(45, 48, 54, 0.1);
+  padding: 20px 55px 15px 20px;
+  /* z-index: 4; */
+}
+.profileDetails {
+  height: 100px;
+  width: auto;
+}
+.profileName {
+  font-size: 1vw;
+  font-weight: 600;
+  letter-spacing: 0.01vw;
+  color: var(--textBlack);
+  margin-left: 8px;
+}
+.profileEmail {
+  font-size: 0.8vw;
+  font-weight: 500;
+  margin-left: 8px;
+  letter-spacing: 0.01vw;
+  color: var(--font-500);
+}
+.list {
+  padding: 10px 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.list > img {
+  width: 20px;
+  height: 20px;
+}
+
+.list > span {
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin-left: 5px;
+  color: var(--textBlack);
+}

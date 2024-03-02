@@ -1,0 +1,49 @@
+.hr-line {
+  width: 30%;
+  height: 3px;
+  background-color: var(--lightGrey);
+}
+.hr-line-active {
+  width: 30%;
+  height: 3px;
+  background-color: var(--primary);
+}
+.stepsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.dot {
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background-color: var(--lightGrey);
+  margin: 0 3px;
+  position: relative;
+}
+.dot-active {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+  background-color: transparent;
+  position: relative;
+}
+.stepName {
+  position: absolute;
+  top: 20px;
+  left: -12px;
+  width: 60px;
+  font-size: 0.75vw;
+  color: var(--darkgrey);
+}
+.stepName-active {
+  position: absolute;
+  top: 20px;
+  left: -12px;
+  width: 60px;
+  font-size: 0.75vw;
+  color: var(--primary);
+}

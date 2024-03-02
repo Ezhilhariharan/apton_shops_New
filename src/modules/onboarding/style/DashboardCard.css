@@ -1,0 +1,123 @@
+/* Card.css */
+
+.storybook-dashboardCard-container {
+  width: 95%;
+  border: 1px solid var(--card-border);
+  background-color: var(--background);
+  border-radius: 7px;
+  padding: 5px 10px 5px 15px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.storybook-dashboardCard {
+  width: 100%;
+}
+
+.dashboardCard-flex > h2 {
+  color: var(--content);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.dashboardCard-flex > p {
+  width: 13rem;
+  color: var(--primary);
+  font-size: 0.625rem;
+  font-weight: 500;
+  display: none;
+}
+
+.dashboardCard-flex1 > p {
+  width: 13rem;
+  color: var(--primary);
+  font-size: 0.625rem;
+  font-weight: 500;
+}
+
+.dashboardCard-flex1 > img {
+  margin-left: 8px;
+}
+
+.storybook-dashboardCard-container:hover > .storybook-dashboardCard > .dashboardCard-flex1 > img {
+  margin-left: 0px;
+}
+
+.storybook-dashboardCard-container:hover .dashboardCard-flex1 {
+  margin-top: 10px !important;
+}
+
+.step1-channel-btn{
+  display: none;
+}
+
+.storybook-dashboardCard-container:hover  .step1-channel-btn{
+  display: block;
+}
+
+.dashboardCard-flex1 > h3 {
+  display: none;
+  color: var(--dashboardprimary);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.dashboardCard-flex1 > h4 {
+  display: none;
+  color: var(--dashboardname);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.storybook-dashboardCard > .dashboardCard-flex1 > span {
+  color: var(--placeholder);
+  font-size: 0.688rem;
+  margin-left: 8px;
+}
+
+.storybook-dashboardCard-container:hover > .storybook-dashboardCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.storybook-dashboardCard-container:hover > .storybook-dashboardCard > .dashboardCard-flex > p {
+  display: block;
+}
+.storybook-dashboardCard-container:hover > .storybook-dashboardCard > .dashboardCard-flex1 > h3 {
+  display: block;
+  margin-left: 5px;
+}
+
+.storybook-dashboardCard-container:hover > .storybook-dashboardCard > .dashboardCard-flex1 > p {
+  display: none;
+  margin-left: 8px;
+}
+
+.storybook-dashboardCard-container:hover > .storybook-dashboardCard > .dashboardCard-flex1 > h4 {
+  display: block;
+  margin-left: 5px;
+}
+
+.storybook-dashboardCard-container:hover
+  > .storybook-dashboardCard
+  > .dashboardCard-flex1
+  > .second-span {
+  display: none;
+}
+
+.storybook-dashboardCard-container:hover
+  > .storybook-dashboardCard
+  > .dashboardCard-flex1
+  > .first-span {
+  margin-right: 5px;
+}
+
+.storybook-dashboardCard-container > span {
+  display: none;
+}
+
+.storybook-dashboardCard-container:hover > span {
+  display: block;
+}

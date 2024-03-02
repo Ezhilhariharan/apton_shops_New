@@ -1,0 +1,128 @@
+/* .verticalLine {
+  border: 0.5px solid var(--border-50);
+  height: 40px;
+  margin-left: 20px;
+}
+.createPost {
+  font-size: 0.8vw;
+  font-weight: 600;
+  color: var(--primary);
+} */
+
+/* .postCardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  justify-content: space-between;
+  
+} */
+
+.createPostBox {
+  /* width: auto;
+  height: auto;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+ 
+  padding: 10px; */
+  /* width: 22%; */
+  padding: 15px 10px;
+  /* width: 25%; */
+  color: var(--primary);
+  background: var(--primaryBackground);
+  /* padding: 1vw 1vw 1vw 1vw; */
+  border: 1px solid var(--borderPrimary);
+  border-radius: 6px;
+  cursor: pointer;
+  /* margin-right: 8px; */
+}
+.createPost {
+  padding: 15px 0px;
+  width: 12%;
+  color: var(--primary);
+  background: var(--primaryBackground);
+  /* padding: 1vw 1vw 1vw 1vw; */
+  border: 1px solid var(--borderPrimary);
+  border-radius: 6px;
+  cursor: pointer;
+  /* margin-right: 8px; */
+  margin-top: 15px;
+}
+.createPost > div {
+  padding-left: 15px;
+}
+.createPost > p {
+  padding: 0px 15px;
+  width: 100%;
+  font-size: 0.85vw;
+  font-weight: 600;
+}
+.createPostBox > p {
+  padding: 0px 10px;
+  width: 100%;
+  font-size: 0.85vw;
+  font-weight: 600;
+}
+.tagCard {
+  width: 100%;
+  border: 1px solid var(--border-50);
+  border-radius: 8px;
+  display: flex;
+  box-shadow: 0px 1.5px 2px 0px rgba(16, 24, 40, 0.1);
+  padding: 7px 10px;
+}
+.tagCard .tagList {
+  /* width: 29vh; */
+  /* margin: auto 4px; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0px 0px;
+}
+.borderRight {
+  height: 20px;
+  margin: 0px 0px;
+  border: 1px solid var(--border-50);
+}
+
+.Post-card {
+  border-right: 1px solid var(--border-50);
+  padding: 0px 0px;
+}
+.tagContent {
+}
+/* .tagContent {
+  margin-right: 15%;
+  gap: 8px;
+} */
+.tagText {
+  /* font-size: 0.87vw; */
+  font-size: 0.87vw;
+  font-weight: 800;
+  color: var(--textBlack);
+}
+.tagHeader {
+  font-size: 0.82rem;
+  /* font-size: clamp(0.92rem, 1vw, 0.82rem); */
+  color: var(--contentText);
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+/* .tagList {
+  width: 100%;
+  justify-content: space-between;
+} */
+.postCard-left > span:nth-child(1) {
+  font-size: 0.75vw;
+  font-weight: 400;
+}
+
+.postCard-left > span:nth-child(2) {
+  font-size: 0.85vw;
+  font-weight: 600;
+}
+.postMain-container {
+  width: 73%;
+}

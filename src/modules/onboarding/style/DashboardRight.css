@@ -1,0 +1,167 @@
+.RightBrandParagraphs {
+  width: 100%;
+  height: 100%;
+  background-color: var(--mainLayoutBG);
+}
+.channelSwitch {
+  height: 30px;
+  background-color: var(--mainLayoutBG);
+}
+.channelBox {
+  width: calc(100% / 8);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.channelBox-active {
+  width: 70px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+}
+.switchIcon {
+  width: 18px;
+  height: 18px;
+}
+.channelName {
+  font-size: 0.68vw;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.borderPadding {
+  padding: 2.1% 3.5%;
+}
+.channelActionFooterWrapper {
+  padding: 0 3.5% 0 0;
+  height: 55%;
+}
+.channelActionFooter {
+  padding: 2% 3.5%;
+  height: 95%;
+  overflow-y: scroll;
+}
+.channelActionFooter::-webkit-scrollbar {
+  width: 6px;
+}
+/* Track */
+.channelActionFooter::-track {
+  border-radius: 10px;
+  background: #f0f1f3;
+}
+.channelActionFooter::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+.profileName {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--textBlack);
+  margin-left: 8px;
+  letter-spacing: 0.01rem;
+}
+.channelActionWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-Header {
+  align-items: center;
+  justify-content: space-between;
+}
+.refresh {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* postDetail */
+
+.channelDetailsWrapper {
+  width: 100%;
+  height: 100%;
+}
+.postDetailsWrapper {
+  width: 100%;
+}
+.content-title {
+  padding: 0 15px;
+}
+.contentPerformanceWrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px 15px;
+}
+.contentPerformanceWrapper .status > img {
+  width: 15px;
+  height: 15px;
+}
+.contentPerformanceWrapper .status > p {
+  font-size: 0.75vw;
+  font-weight: 600;
+  margin-left: 2px !important;
+}
+.contentPerformanceIcons {
+  width: 27px;
+  height: 27px;
+}
+.contentPerformanceName {
+  color: var(--textBlack);
+  font-size: 0.85vw;
+  font-weight: 600;
+  margin-left: 5px;
+  letter-spacing: 0.01rem;
+}
+.contentPerformance {
+  width: 100%;
+  cursor: default !important;
+}
+.hastag-wrapper {
+  padding: 0 15px;
+}
+.hashtagBadges {
+  padding: 6px 8px;
+  border-radius: 20px;
+  display: inline-flex;
+  margin: 8px 7px !important;
+  text-align: center;
+  font-size: 0.72vw;
+  font-weight: 600;
+  letter-spacing: 0.01rem;
+  cursor: pointer;
+}
+.activeBadges {
+  background-color: var(--primaryBG);
+  color: var(--primary) !important;
+}
+.inActiveBadges {
+  background-color: var(--badge);
+  color: var(--textBlack);
+}
+.postReach {
+  color: var(--font-400);
+  margin-left: 4px;
+}
+.Hashtags {
+  width: 21px;
+  height: 21px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.percentage {
+  font-size: 1.2vw;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-left: 5px;
+}
+.gg-right {
+  padding-bottom: 50px;
+}

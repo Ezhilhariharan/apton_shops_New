@@ -1,0 +1,209 @@
+.Account-Main {
+  /* width: 100%; */
+  height: 100%;
+  /* overflow: auto; */
+}
+.Account-settingMain {
+  width: 60%;
+}
+.AccountPage-container {
+  /* width: 58%; */
+}
+.AccountPage_wrapper {
+  width: 100%;
+  height: auto;
+}
+.AccountProfile {
+  width: 100%;
+  height: 84px;
+  padding: 10px 10px;
+  border-radius: 16px;
+  background: var(--primary-neutral, #f4f6f8);
+}
+.AccountMain-container {
+  /* width: 82vh; */
+  padding: 10px 0px;
+}
+.person {
+  width: 82vh;
+}
+
+.AccountProfile > div > span {
+  width: 6vh;
+  height: 6vh;
+  color: var(--primary-white, #fff);
+  text-align: center;
+  font-size: 0.98vw;
+  font-weight: 500;
+  border-radius: 30px;
+  background: var(--secondary-amber-500-base, #f6a723);
+}
+.AccountProfile > div > div {
+  padding: 10px 0px;
+}
+.AccountProfile > div > div > p {
+  color: var(--contentText);
+  font-size: 0.82vw;
+  font-weight: 600;
+}
+.AccountProfile > div > div > span {
+  color: var(--channelToggleSwitch);
+  font-size: 0.68vw;
+  font-weight: 500;
+  padding: 0px 10px;
+}
+.Account-uploaded-image {
+  border-radius: 50px;
+  /* object-fit: contain; */
+}
+
+.Account-uploaded-image > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+}
+
+.popup-exit1 {
+  width:18px !important;
+  height: 18px !important;
+  position: absolute;
+  right: 22%;
+  /* margin-top: 3px; */
+}
+.Personal-Info {
+  padding-top: 20px !important;
+}
+.Personal-Info > div > span {
+  font-size: 0.87vw;
+  font-weight: 500;
+}
+.Left-container {
+  width: 50vh;
+}
+.label-details {
+  width: 100%;
+}
+.input {
+  width: 24vh;
+  color: var(--contentText);
+}
+
+.about-container > 
+
+
+.about-container > div {
+  height: 100px;
+  border-radius: 8px;
+}
+
+.about-container > div > textarea {
+  width: 100%;
+  /* height:35px; */
+
+  color: #858d9d;
+  font-size: 0.86vw;
+  font-weight: 500;
+  resize: none;
+  border: none;
+  outline: none;
+  padding: 6px 6px;
+  border-radius: 8px;
+
+  &::placeholder {
+    font-size: 0.75vw;
+    font-weight: 400;
+    color: var(--font-400);
+  }
+}
+
+.About > span {
+  font-size: 0.82vw;
+  font-weight: 400;
+  padding: 10px 0px;
+  
+}
+
+.accountText {
+  font-size: 0.74vw;
+  font-weight: 400;
+  min-height: 8.5vh !important;
+  max-height: 14vh !important;
+  color: var(--darkgrey) !important;
+}
+
+.password-detail {
+  width: 49.5vh;
+}
+.contact-container {
+  padding: 7px 0px;
+}
+.button {
+  width: 100%;
+  padding: 20px 7px !important;
+  border-bottom: 1px solid var(--font-50);
+}
+
+.button > .cancel-button {
+  font-size: 0.74vw;
+  font-weight: 600;
+  margin: 0px 40px;
+
+  color: var(--channelToggleSwitch);
+}
+
+.password-detail {
+  padding: 10px 0px;
+}
+
+.password-button > .cancel-button {
+  font-size: 0.74vw;
+  font-weight: 600;
+  margin: 0px 40px;
+
+  color: var(--channelToggleSwitch);
+}
+
+.password-detail {
+  padding: 0px 0px;
+}
+.password-wrapper {
+  width: 49.5vh;
+  padding: 10px 0px;
+}
+/* .password-detail > .password-wrapper > .Password-lock {
+  position: relative;
+  width: 82vh;
+  padding: 10px 10px;
+}
+.password-detail > .password-wrapper > .Password-lock > img {
+  position: absolute;
+  bottom: 3vh;
+} */
+.password-detail > .password-wrapper > .password-eyeIcon {
+  position: relative;
+}
+
+.password-detail > .password-wrapper > .password-eyeIcon > img {
+  position: absolute;
+  left: 26vw;
+  bottom: 1vh;
+}
+.password-button {
+  width: 50vh;
+  margin: 10px 10px;
+}
+
+/* .about-container {
+  height: 7vh;
+  border-radius: 7px;
+
+  border: 1px solid var(--font-100);
+} */
+/* .about-container > div {
+  width: 100vh;
+  padding: 0px 10px;
+  margin-bottom: 2vh;
+  border: 1px solid red;
+} */

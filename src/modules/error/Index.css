@@ -1,0 +1,33 @@
+.errorWrapper {
+  width: 100vw;
+  height: 100vh;
+  background: var(--background);
+}
+.errorWrapper > .left {
+  width: 40%;
+  height: 100%;
+  padding: 0 0 0 60px;
+}
+.errorWrapper .right {
+  width: 60%;
+  height: 100%;
+}
+.errorImg {
+  width: 70vw;
+  height: 70vh;
+}
+.heading {
+  font-size: 4vw;
+  font-weight: 600;
+  color: var(--textBlack);
+  line-height: 65px;
+}
+.content {
+  font-size: 0.8vw;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: var(--font-600);
+}
+.buttonWrapper {
+  margin-top: 25px;
+}

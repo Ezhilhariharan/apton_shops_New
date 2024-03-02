@@ -1,0 +1,36 @@
+.TextEditior-container {
+  width: 70%;
+  height: auto;
+  max-height: 4vh;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px 0px rgba(45, 48, 54, 0.1);
+}
+.Textwrapper {
+  padding-left: 45px;
+  padding-bottom: 15px;
+}
+.textarea-button{
+  width:100%;
+  height:10vh;
+  padding-bottom: 30px;
+ /* margin-top: 10px; */
+}
+.textarea-button > textarea {
+  width: 95%;
+  height:30px;
+  
+  color: #858d9d;
+  font-size: 0.86vw;
+  font-weight: 500;
+  resize: none;
+  border: none;
+  outline: none;
+  padding: 6px 6px;
+}
+
+
+/* .TextEditior-container >img {
+   
+width:16px;
+height:16px;
+} */

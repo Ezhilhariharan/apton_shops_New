@@ -1,0 +1,17 @@
+.dropDown-container {
+  display: flex;
+  padding: 15px 30px 15px 0px;
+  align-items: center;
+}
+
+.dropDown-container > img {
+  width: 13px;
+  height: 13px;
+}
+
+.dropDown-container > span {
+  font-size: 0.75vw;
+  font-weight: 400;
+  color: var(--textBlack);
+  padding-left: 5px;
+}

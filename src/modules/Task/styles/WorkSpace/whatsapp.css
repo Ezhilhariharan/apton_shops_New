@@ -1,0 +1,754 @@
+.image-main-container {
+  width: 62vh;
+  position: relative;
+}
+
+.sendMsgWrapper {
+  height: 70px;
+}
+
+.sendMsgWrapper-parent-wrapper .selectInputWrapper {
+  width: 7vw;
+  height: 30px !important;
+  border-radius: 8px !important;
+
+}
+.sendMsgWrapper-parent-wrapper .selectOptionWrapper {
+  border: 1px solid #000;
+  z-index: 1500 !important;
+}
+
+
+.whiteBackgroundWhatsapp {
+  min-height: 50px;
+  background-color: var(--BG-0);
+  height: auto;
+}
+.sendMSgFooter {
+  height: 55px;
+  padding: 0 20px;
+}
+
+.sendMsgWrapper .borderNumber {
+  color: var(--font-400) !important;
+  font-size: 0.85vw;
+  font-weight: 400;
+}
+
+.sendMessage {
+  border-radius: 8px;
+  height: 30px;
+  margin-left: 10px;
+  border: 1px solid var(--card-border);
+  font-size: 0.85vw;
+  font-weight: 400;
+  padding: 0 10px;
+  &::placeholder {
+    color: var(--font-400);
+    font-size: 0.8vw;
+    font-weight: 400;
+    /* padding-left: 5px; */
+  }
+}
+.sendMessage:focus {
+  outline: none;
+}
+
+.duplicateButton {
+  width: 100px;
+  height: 30px;
+  background-color: var(--primary);
+  color: white;
+  font-size: 0.85vw;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  letter-spacing: 0.02rem;
+}
+.customTimePicker {
+  height: 300px;
+  width: 90px;
+  background-color: var(--BG-0);
+}
+.customTimePicker .hours {
+  height: 100%;
+  width: 50%;
+  overflow-y: scroll;
+  color: var(--textBlack);
+  background-color: white;
+  border-right: 1px solid var(--border-100);
+}
+.customTimePicker .minutes {
+  height: 100%;
+  width: 50%;
+  overflow-y: scroll;
+  color: var(--textBlack);
+}
+.minutes :hover {
+  background-color: var(--BG-100);
+  border-radius: 2px;
+}
+.hours :hover {
+  background-color: var(--BG-100);
+  border-radius: 2px;
+}
+
+.TimePicker {
+  /* width: 100px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #f4f4f5;
+  border-radius: 10px; */
+
+  width: 100px;
+  height: 32px;
+  padding: 0px 0px;
+  border-radius: 5px;
+  border: 1px solid var(--lightGrey);
+  background: var(--textWhite);
+}
+
+.image-main-container > img {
+  width: 34vh;
+  height: 65vh;
+  background-color: var(--channelMessage);
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+.image-main-container > div {
+  width: 29.5vh;
+  height: auto;
+  max-height: 60vh;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  right: 0;
+  box-shadow: 0px 4px 30px 0px rgba(45, 48, 54, 0.1);
+  background-color: white;
+  border-radius: 16px;
+  padding: 0px 0px;
+}
+
+.image-main-container > div::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 23.89px;
+  height: 12px;
+  transform: rotate(180deg);
+
+  background: white;
+
+  border-radius: 8px 80px 0px 0px;
+}
+
+.image-main-container > div > .text-container {
+  width: 90%;
+}
+.text-container > span {
+  font-size: 0.7vw;
+  font-weight: 700;
+  font-style: normal;
+  line-break: anywhere;
+}
+.text-container > p {
+  font-size: 0.74vw;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.text-container > div > span {
+  font-size: 0.72vw;
+  font-weight: 700;
+  font-style: normal;
+}
+.image-main-container > div > span {
+  width: 30vh;
+  display: flex;
+  justify-content: end;
+  font-size: 0.62vw;
+  color: var(--darkgrey);
+  font-weight: 600;
+  font-style: normal;
+  padding: 10px 10px;
+}
+.image-main-container > div .final-container {
+  display: flex;
+  width: 100%;
+  height: 42px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--BG-50);
+}
+.final-container > p {
+  color: var(--dashboardprimary);
+  font-size: 0.82vw;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* ----Whataspp campaigan ------ */
+
+.whatsapp-container {
+  width: 100%;
+  height: 100%;
+  /* overflow: scroll; */
+  padding: 0px 10px;
+  border-left: 1px solid var(--border-50);
+}
+.containerWrapper {
+  width: 100%;
+  height: 91%;
+  overflow-y: scroll;
+}
+.containerWrapper .main_container {
+  width: 100%;
+  height: auto;
+  padding: 0px 10px;
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+  /* border: 1px solid var(--Greyscale-50, #F0F1F2);
+background: var(--Primary-White, #FFF); */
+  padding-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 1.5px 2px 0px rgba(16, 24, 40, 0.1);
+}
+.heading > img {
+  width: 20px;
+  height: 20px;
+}
+.heading > p {
+  font-size: 0.79vw;
+  font-weight: 700;
+  padding: 0px 7px;
+}
+.heading > img:nth-of-type(2) {
+  padding-left: 5px;
+}
+.message-container {
+  width: auto;
+  position: relative;
+  height: 3.5vh;
+  padding: 0px 6px;
+  border-radius: 7px;
+
+  border: 1px solid var(--BG-50);
+}
+.message-container > div > img {
+  width: 20px;
+  height: 20px;
+}
+.message-container > div > p {
+  font-size: 0.7vw;
+  font-weight: 500;
+  padding: 3px 9px;
+  color: var(--channelToggleSwitch);
+}
+.popover-container {
+  /* position: absolute;
+  right: -20px;
+  top: 30px; */
+  padding: 0px 7px;
+  border-radius: 10px;
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+}
+.popover-container > div > div {
+  width: 30vh;
+  height: auto;
+  padding: 10px 0px;
+  border-bottom: 1px solid var(--font-50);
+}
+.popover-container > div > div > div > div > p {
+  font-size: 0.8vw;
+  font-weight: 700;
+}
+.popover-container > div > div > span {
+  font-size: 0.76vw;
+  font-weight: 600;
+
+  color: var(--channelToggleSwitch);
+}
+.menu-container {
+  width: 90%;
+  margin-left: 5px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #d1d3d8;
+  margin-bottom: 10px;
+}
+
+.menu-container-main {
+  padding: 0px 10px;
+}
+.menu_container_main_focused {
+  color: var(--primary) !important;
+  padding: 10px 10px;
+  border-bottom: 1px solid var(--primary);
+}
+.menu-container-main > img {
+  width: 16px;
+  height: 16px;
+}
+
+.menu-container-main > span {
+  font-size: 0.74vw;
+  font-weight: 400;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+/* .menu-container-main > .status-color {
+  width: 1px;
+  height: 3vh;
+} */
+.menu-container > p {
+  font-size: 0.98vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.upload-container {
+  width: 100% !important;
+  height: 15vh !important;
+  border-radius: 5.35px;
+  border: 1.5px dashed var(--font-100);
+
+  background: var(--BG-25);
+
+  input[type='file'] {
+    display: none;
+  }
+}
+.uploadLabel {
+  width: 100% !important;
+  height: 100% !important;
+  /* border: 1px solid red; */
+}
+.uploadLabel > p {
+  margin-top: 25px;
+  font-size: 0.61vw;
+  font-weight: 600;
+  color: var(--font-600);
+}
+.search-container {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 3.5vh;
+  border-radius: 7px;
+  background: var(--channelButton);
+  padding: 10px 10px;
+}
+.search-container > img {
+  width: 16px;
+  height: 16px;
+}
+.search-container > input {
+  background: var(--channelButton);
+  color: var(--font-400);
+
+  outline: none;
+  border: none;
+  font-size: 0.84vw;
+  font-weight: 500;
+}
+
+.Existing-container {
+  width: 100%;
+  height: 7vh;
+  padding: 20px 20px;
+  border-bottom: 1px solid var(--font-50);
+}
+
+.Existing-container > div > p {
+  font-size: 0.74vw;
+  font-weight: 500;
+
+  padding: 0px 7px;
+}
+.Existing-container > div > span {
+  color: var(--interaction);
+  font-size: 0.72vw;
+  font-weight: 500;
+}
+
+.select-container {
+  width: 100%;
+  height: auto;
+  padding: 15px 10px;
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+  border-radius: 10px;
+  position: relative;
+}
+.select-container-wrapper {
+  width: 37%;
+
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.select-container-wrapper > img {
+  width: 16px;
+  height: 16px;
+}
+.select-container-wrapper > span {
+  font-size: 0.86vw;
+  color: var(--channelToggleSwitch);
+}
+.select-calendar {
+  width: auto;
+  height: 32px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 1px solid var(--lightGrey);
+  background: var(--textWhite);
+}
+.select-calendar > p {
+  font-size: 0.78vw;
+  font-weight: 500;
+  color: var(--font-400);
+  padding-left: 5px;
+}
+.select-time {
+  width: 100px;
+  height: 32px;
+  padding: 0px 0px;
+  border-radius: 5px;
+  border: 1px solid var(--lightGrey);
+  background: var(--textWhite);
+}
+.select-time > span {
+  font-size: 0.78vw;
+  font-weight: 500;
+  color: var(--font-400);
+}
+.search {
+  width: 28vw;
+  height: 23vh;
+
+  overflow: scroll;
+  border-radius: 10px;
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+  box-shadow: 0px 1.5px 2px 0px rgba(16, 24, 40, 0.1);
+  /* left: 20px; */
+  /* top: 65%; */
+  /* bottom: 60%; */
+  position: absolute;
+  top: 70px;
+}
+
+.search-template-container > div > img {
+  width: 20px;
+  height: 20px;
+}
+
+.search-template-info {
+  width: auto;
+  height: 4.5vh;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  border-bottom: 0.5px solid #f0f1f2;
+  padding: 10px;
+}
+
+.search-template-info > p {
+  font-size: 0.82vw;
+  font-weight: 500;
+  color: var(--interaction);
+  padding-right: 7px;
+  cursor: pointer;
+}
+
+.search-template-info:hover {
+  cursor: pointer;
+  border-radius: 7px;
+  background: var(--primaryBackground);
+}
+
+.search-template-info > .status-color {
+  font-size: 0.72vw;
+  font-weight: 500;
+  /* width: 14%; */
+  height: 10px;
+  border-radius: 4px;
+  align-items: center;
+  padding: 2px 5px;
+}
+.status-container .status-color {
+  font-size: 0.7vw;
+  font-weight: 500;
+  height: 10px;
+  border-radius: 4px;
+  align-items: center;
+  padding: 2px 5px;
+}
+
+/* .status-color {
+  font-size: 0.72vw;
+  font-weight: 500;
+  width: 30%;
+  height: 2vh;
+  border-radius: 4px;
+  align-items: center;
+  padding: 2px 3px;
+} */
+
+.select-container-main {
+  position: absolute;
+  /* top: 50%; */
+}
+
+.search-popover {
+  /* position: absolute; */
+  /* width: 30%;
+  height: auto; */
+  /* bottom: -20px; */
+  border-radius: 6px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  background: var(--primary-white, #fff);
+
+  /* bottom: 20px; */
+  /* top: 57%; */
+  /* top: 570px; */
+  /* bottom: 0% !important; */
+  /* border: 1px solid #000; */
+}
+.AddIcon > img {
+  width: 35px;
+  height: 30px;
+}
+.message-menu-container {
+  width: 70%;
+  padding-bottom: 10px;
+}
+.message-menu-container > .message {
+  width: 35%;
+  height: 4vh;
+  border-radius: 6px;
+
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+  box-shadow: 0px 1.5px 2px 0px rgba(16, 24, 40, 0.1);
+}
+.message-menu-container > .message > img {
+  width: 16px;
+  height: 16px;
+}
+.message-menu-container > .message > span {
+  font-size: 0.72vw;
+  color: var(--channelToggleSwitch);
+  font-weight: 500;
+  color: var(--font-600);
+}
+.Reply > div {
+  width: 50vh;
+}
+.Reply > div > p {
+  font-size: 0.92vw;
+  font-weight: 600;
+  padding-right: 3px;
+}
+.TextEditor-main {
+  width: 100%;
+  padding-left: 40px;
+}
+.TextEditor {
+  width: 60%;
+  height: 3.5vh;
+  border-radius: 6px;
+  box-shadow: 0px 4px 20px 0px rgba(45, 48, 54, 0.1);
+}
+.status-container {
+  width: 100%;
+  height: auto;
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+}
+.status-container-wrapper {
+  width: 100%;
+}
+.status-container-wrapper > div > span {
+  font-size: 0.82vw;
+  font-weight: 700;
+}
+.status-container > .status-container-wrapper > .status-calendar {
+  width: 120px;
+  height: 32px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 1px solid var(--BG-100);
+  background: var(--textWhite);
+}
+.status-container > .status-container-wrapper > .select-calendar > p {
+  font-size: 0.76vw;
+  font-weight: 500;
+  color: var(--textBlack);
+}
+.status-container > .status-container-wrapper > .status-time {
+  width: 100px;
+  height: 32px;
+  padding: 0px 0px;
+  border-radius: 5px;
+  border: 1px solid var(--lightGrey);
+  background: var(--textWhite);
+}
+.status-container > .status-container-wrapper > .status-time > span {
+  font-size: 0.78vw;
+  font-weight: 500;
+  color: var(--textBlack);
+}
+.whatsapp-status-color {
+  padding-left: 20px;
+}
+.whatsapp-status-color > span {
+  padding: 0 5px;
+  font-size: 0.65vw;
+  font-weight: 500;
+  /* color: var(--statusFont);
+  background: var(--statusBg); */
+  border-radius: 4px;
+}
+.whatsapp-status-color > img {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
+
+.status-container > .status-main-container > .status-line {
+  width: 100%;
+  height: 23vh;
+  padding: 0px 0px;
+  overflow-y: scroll;
+}
+.status-line > .status-input > div {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+}
+.input-heading {
+  width: 40vh;
+
+  padding: 7px 0px;
+  font-size: 0.76vw;
+}
+.status-line {
+  border-top: 1px solid var(--BG-50);
+}
+
+.status-input > div {
+  display: flex;
+  width: 21vh;
+  height: 4vh;
+  padding: 0px 0px;
+  margin-top: 12px;
+  border-radius: 4px;
+
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+}
+.status-main-container > .input-heading > div > p {
+  font-size: 0.82vw;
+  font-weight: 500;
+}
+
+.status-main-container > .input-heading > p {
+  width: 30%;
+  padding: 10px;
+  font-size: 0.82vw;
+  font-weight: 500;
+}
+.status-input > div > p {
+  color: var(--primary);
+  font-size: 0.81vw;
+  font-weight: 500;
+}
+
+.statusLeftSide-input {
+  width: 50%;
+  height: 5vh;
+}
+.statusLeftSide-input > .input-filed {
+  width: 100%;
+  height: 4vh !important;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+  margin-top: 12px;
+}
+.input-filed > p {
+  font-size: 0.78vw;
+  font-weight: 500;
+  color: var(black) !important;
+}
+.input-dropdown {
+  width: 30vh;
+  height: 15vh;
+  overflow-y: scroll;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  /* bottom: 80px; */
+}
+
+.input-dropdown > div > .input-data {
+  width: 35vh;
+  height: 5vh;
+  padding: 10px 10px;
+  border: 1px solid var(--BG-50);
+  background: var(--textWhite);
+  font-size: 0.88vw;
+  color: var(--font-600);
+}
+
+.File-container {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: var(--primary-neutral, #f4f6f8);
+  padding: 7px 10px;
+  margin-top: 15px;
+}
+.File-container > .File-wrapper div > p {
+  font-size: 0.85vw;
+  font-weight: 500;
+  padding: 7px;
+}
+.File-container > .File-wrapper div > span {
+  color: var(--channelToggleSwitch);
+  font-size: 0.65vw;
+  font-weight: 500;
+  padding-left: 23px;
+}
+
+.search-memo {
+  margin-bottom: 10px;
+}
+.sendMessage-button {
+  padding: 15px 5px;
+}
+.select-icon {
+  font-size: 0.88vw;
+  font-weight: 600;
+}
+.Add_prospects_container {
+  margin: 0px 0px 0px 10px;
+}
+.Add_prospects_container > p {
+  font-weight: 600;
+}
+.Add_prospects_container > span {
+  font-size: 0.78vw;
+  font-weight: 500;
+  color: var(--channelToggleSwitch);
+  padding-left: 10px;
+}

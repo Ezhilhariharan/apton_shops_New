@@ -1,0 +1,21 @@
+.imageCover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+.viewList {
+  display: inline;
+}
+.comments {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.textDesc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.shareIcons {
+  width: 3vh;
+  height: 3vh;
+}

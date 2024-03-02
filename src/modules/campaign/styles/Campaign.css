@@ -1,0 +1,336 @@
+.campaignWrapper {
+  width: 100%;
+  height: 100%;
+}
+.campaign-rightLayout {
+  width: 87.3%;
+  height: 100%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: var(--background);
+}
+.campaignOverviewWrapper {
+  background: var(--background);
+  width: 100%;
+  height: calc(100% - 40px);
+}
+.overviewBody {
+  width: 100%;
+  height: calc(100% - 88px) !important;
+  overflow-y: scroll !important;
+}
+.campaignBorderLeft {
+  height: 40px;
+  width: 4px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #f96056;
+}
+.campaignOverviewBody {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+/* table  */
+.statusBar {
+  width: 150px;
+  height: 15px;
+  /* opacity: 0.1 !important;
+  filter: alpha(opacity=10); */
+  border-radius: 10px;
+  font-size: 0.5vw;
+  font-weight: 600;
+  padding: 3px 3px 3px 5px;
+  text-transform: uppercase;
+}
+.barPercentage {
+  width: 25px;
+  height: 12px;
+  background: var(--background);
+  border-radius: 10px;
+}
+.duration {
+  height: 20px !important;
+}
+.duration-open-calendar {
+  /* height: 100px; */
+  z-index: 1;
+}
+.durationCalender {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+.multipleAvatar img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--borderWhite);
+}
+.multipleAvatar:nth-child(1) {
+  margin-left: 0px !important;
+}
+.multipleAvatar {
+  margin-left: -9px;
+}
+.tag {
+  padding: 3px 8px 3px 8px;
+  font-size: 0.65vw;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.campaign-list {
+  width: 100%;
+  height: calc(100% - 85px);
+  padding: 0 10px;
+  background-color: var(--BG-25);
+}
+.campaignNameIcon {
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+}
+.campaignDetails {
+  font-size: 0.7vw;
+  font-weight: 400;
+  color: var(--font-500);
+  margin-top: 7px;
+}
+.campaignNameBox {
+  font-size: 0.85vw;
+  font-weight: 400;
+}
+.campaignBoxImage {
+  margin: 0 3px 0 5px;
+  width: 14px;
+  height: 14px;
+}
+.iconWrapper {
+  display: none !important;
+}
+.campaignBoxRadioButton {
+  display: none !important;
+}
+.campaignBoxRadioActive {
+  display: flex !important;
+  margin: 0 15px 0 0;
+}
+.iconWrapperActive {
+  display: flex !important;
+}
+
+.listRow:hover .iconWrapper {
+  display: flex !important;
+}
+.listRow:hover .campaignBoxRadioButton {
+  display: flex !important;
+  margin: 0 15px 0 0;
+}
+
+/* Filter campaign ------------------------------------------- */
+
+.filter-wrapper {
+  width: 600px;
+  /* width: 50%; */
+  height: auto;
+  box-shadow: 0px 0px 16px 0px #4f5c8026;
+  border-radius: 10px;
+  /* top: 35px;
+  right: 10px; */
+  background: var(--background);
+  /* z-index: 35 !important; */
+  padding: 10px 20px 20px 20px;
+}
+
+.form-height-wrap {
+  height: auto;
+  max-height: 280px;
+  overflow-y: scroll;
+}
+
+.filter-wrap > img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.filter-wrap > span {
+  font-size: 0.9vw;
+  font-weight: 600;
+  color: var(--textBlack);
+}
+
+.filter-drawer-wrap {
+  background: var(--channelButton);
+  padding: 4px 6px;
+  border-radius: 8px;
+}
+
+.filter-drawer-wrap input[type='text'] {
+  width: 80%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 0.75vw;
+  font-weight: 400;
+  color: var(--textBlack);
+  background: transparent;
+  padding-left: 10px;
+
+  &::placeholder {
+    color: var(--font-400);
+    font-size: 0.75vw;
+    font-weight: 400;
+  }
+}
+
+.ant-select-dropdown .ant-select-item {
+  padding: 0 !important;
+  outline: none;
+  border: none;
+}
+
+.ant-select-item-option-content {
+  font-size: 0.75vw;
+  font-weight: 400;
+  color: var(--textBlack);
+}
+
+.ant-select-selection-item {
+  color: var(--font-600);
+  font-size: 0.82vw;
+  font-weight: 500;
+}
+
+.ant-input {
+  border-radius: 10px;
+  outline: none !important;
+}
+
+.ant-input:hover {
+  border-color: var(--font-50);
+  border: 1px solid var(--card-border);
+}
+
+.ant-input:focus {
+  border-color: var(--font-50);
+  border: 1px solid var(--card-border);
+  box-shadow: none;
+}
+
+.campaign-filter-footer > span {
+  font-size: 0.65vw;
+  font-weight: 600;
+  color: var(--font-600);
+  margin-right: 10px;
+}
+.add-filter {
+  font-size: 0.7vw;
+  font-weight: 500;
+  color: var(--font-600);
+  /* padding: 20px 0 0; */
+  /* border: 1px solid red; */
+  width: 100px;
+  height: 35px;
+}
+
+/* Campaign vertical selelctor ------------------------------------- */
+
+.campaign-stepper {
+  margin-top: 20px;
+  height: 90%;
+  width: 30%;
+}
+
+.campaign-dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid #bbbec5;
+  background: none;
+  margin: 0 3px;
+}
+
+.campaign-activeSteps {
+  width: 8px;
+  height: 8px;
+}
+
+.campaign-stepNameVr {
+  width: 150px;
+  left: 22px;
+  top: -2px;
+  font-size: 0.75vw;
+  font-weight: 500;
+  color: var(--textBlack) !important;
+}
+
+.vr-line {
+  border: 2px solid #bbbec5;
+  height: 30%;
+}
+
+.vr-line-active {
+  height: 30%;
+  border: 2px solid var(--primary) !important;
+}
+
+.dot-active {
+  display: inline-flex;
+  height: 20px;
+  width: 20px;
+  background: none;
+  border: 3px solid var(--primary);
+  border-radius: 50%;
+  margin: 0 3px;
+  color: white;
+}
+
+.dropdownWrapper {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 60px;
+  box-shadow: 0px 4px 30px 0px #2d30361a;
+  padding: 5px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropDownHover:hover .dropdownWrapper {
+  display: block;
+}
+
+.campaignCountWrapper {
+  padding: 3px 15px 3px 10px;
+  background-color: var(--background);
+  height: 44px;
+}
+
+.campaignCountWrapper .count {
+  font-size: 0.72vw;
+  font-weight: 500;
+  color: var(--textBlack);
+  letter-spacing: 0.2px;
+}
+.campaignCheckbox {
+  display: none !important;
+}
+.campaignName {
+  cursor: pointer;
+}
+.campaignName:hover .campaignCheckbox {
+  display: block !important;
+  cursor: pointer;
+}
+
+/* .campaignName:hover {
+  border: 1px solid red;
+} */

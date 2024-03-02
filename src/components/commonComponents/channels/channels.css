@@ -1,0 +1,56 @@
+.listCardWrapper {
+  background: var(--background);
+  border-radius: 10px;
+  padding: 0 5px;
+  width: 220px;
+  height: auto;
+  max-height: 400px;
+  box-shadow: 0px 4px 30px 0px rgba(45, 48, 54, 0.1);
+}
+.channels {
+  padding: 12px 8px;
+  border-bottom: 1px solid var(--border-50);
+}
+.channels img {
+  width: 23px;
+  height: 23px;
+}
+.channelName {
+  font-size: 0.88vw;
+  font-weight: 400;
+  line-height: 14px;
+  margin-left: 7px;
+}
+
+/*  */
+
+.channel-wrapper-main {
+  width: 10vw;
+  /* height: 5px; */
+  box-shadow: 0px 4px 30px 0px #2d30361a;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.channel-wrapper-main > span {
+  font-size: 0.63vw;
+  font-weight: 400;
+  color: var(--font-400);
+}
+
+.channel-wrapper {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.channel-wrap  > img {
+  width: 15px;
+  height: 15px;
+}
+
+.channel-wrap  > span {
+  font-size: 0.75vw;
+  font-weight: 400;
+  color: var(--textBlack);
+}

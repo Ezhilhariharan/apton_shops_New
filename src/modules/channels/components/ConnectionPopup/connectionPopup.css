@@ -1,0 +1,201 @@
+.confirmationModal {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: absolute;
+  z-index: 60;
+  /* backdrop-filter: grayscale(0%); */
+}
+.asp-modal-popup-channels .popup-body {
+  width: 100%;
+  height: auto !important;
+  max-height: 240px !important;
+  padding: 10px !important;
+  /* overflow-y: scroll !important;
+  overflow-x: visible !important; */
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.greyBg {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: grayscale(100%);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  position: absolute;
+  z-index: 50;
+}
+.btnContainer {
+  position: absolute;
+  top: 48%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  width: 20vw;
+  text-align: center;
+  display: flex;
+  gap: 0.7vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85vw;
+  font-weight: 600;
+}
+
+.connectButton {
+  font-size: 0.8vw;
+  margin: auto 1%;
+  padding: 9px 16px;
+  border-radius: 5px;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+  color: var(--white) !important;
+  background-color: var(--primary) !important;
+}
+.verifyBtn {
+  background: var(--channelButton);
+  padding: 5px 16px !important;
+  color: var(--channelToggleSwitch);
+  font-size: 0.85vw !important;
+}
+
+.popupContainer {
+  width: 30vw;
+  height: auto;
+  max-height: 30vw;
+  background: var(--textWhite);
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px 0px var(--border-100);
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -40%);
+  padding: 1%;
+}
+
+/* .popup-body .scrollableContainer {
+  width: 100%;
+  max-height: 230px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+} */
+
+.popupTitle {
+  border-bottom: 1px solid var(--border-50);
+  padding-bottom: 2%;
+}
+
+.popupTitle .popupHeader {
+  display: flex;
+  gap: 0.5vw;
+}
+
+.popupTitle .desc {
+  font-size: 0.75vw;
+  font-weight: 500;
+}
+
+.popupDesc {
+  font-size: 0.8vw;
+  font-weight: 500;
+  color: var(--darkgrey) !important;
+  padding: 0 10px;
+}
+
+.popupTitle img {
+  margin-top: 0.2vh;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.popupListContainer {
+  width: 100%;
+  box-shadow: 0px 1.5px 2px 0px var(--BoxShadow);
+  border-radius: 10px;
+  padding: 2%;
+  border: 1px solid var(--border-50);
+}
+
+.popupListHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+.popupList {
+  background:var(--channelButton) ;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 0.5vw;
+  /* border: 1px solid red; */
+}
+
+.popupItem {
+  height: auto;
+  border-radius: 10px;
+  background:var(--textWhite) ;
+  padding: 1% 4% 1% 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.verifyBtnContainer {
+  background: var(--textWhite);
+  margin-top: 0 !important;
+  padding: 2%;
+  border-radius: 10px;
+  gap: 3% !important;
+}
+
+.confirmationModal .closeIcon {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  cursor: pointer;
+}
+
+.confirmationModalBottom {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 50px;
+  padding-right: 10px;
+  gap: 10px;
+}
+
+.noListWrapper {
+  height: 200px;
+  border-radius: 10px;
+  background: var(--BG-25);
+}
+.noListWrapper .title {
+  font-size: 1.2vw;
+  font-weight: 700;
+  color: var(--textBlack);
+}
+.noListWrapper .para {
+  font-size: 0.95vw;
+  font-weight: 600;
+  color: var(--font-600);
+  width: 80%;
+  text-align: center;
+}
+.noListWrapper .noListImg {
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,19 @@
+.hrLine {
+  width: 23%;
+  background-color: var(--authDivider);
+  height: 1px;
+  margin: 0 10px 0 10px;
+}
+.dividerWrapper {
+  justify-content: center;
+  align-items: center;
+  min-height: 55px !important;
+  height: 55px;
+  width: 100%;
+}
+.title {
+  font-size: 0.7vw;
+  letter-spacing: 0.02rem;
+  font-weight: 500;
+  color: var(--textBlack);
+}

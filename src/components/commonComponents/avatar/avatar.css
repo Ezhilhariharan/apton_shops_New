@@ -1,0 +1,33 @@
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.nameAvatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.name {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.avatar:active .profileBox {
+  display: inline-block;
+}
+.avatar:hover .profileBox {
+  display: inline-block;
+}
+.nameAvatar:active .profileBox {
+  display: block;
+}
+.nameAvatar:hover .profileBox {
+  display: block;
+}

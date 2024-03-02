@@ -1,0 +1,71 @@
+.storybook-Title-container {
+  width: auto;
+  text-align: center;
+  /* height: 100px; */
+}
+.storybook-Title-container-left {
+  width: auto;
+}
+
+.Title-title {
+  color: var(--title);
+  font-size: 1.6vw;
+  font-weight: 700;
+}
+
+.Title-content {
+  width: auto;
+  color: var(--content);
+  font-size: 1.9vw;
+  font-weight: 700;
+  margin-top: 15px !important;
+
+  /* margin: 0px !important; */
+}
+
+.Title-paragraph {
+  font-size: 0.8vw;
+  font-weight: 400;
+  color: var(--darkgrey);
+  margin: 5px !important;
+}
+
+.storybook-Title:focus {
+  outline: none;
+}
+
+.Title--small {
+  font-size: 0.7vw;
+  font-weight: 700;
+  color: var(--textBlack);
+  margin: 0px 25px 0px 10px;
+}
+.Title--medium {
+  font-size: 0.9vw;
+  font-weight: 700;
+  color: var(--textBlack);
+}
+.Title--large {
+  font-size: large;
+  font-weight: bold;
+  color: var(--textBlack);
+}
+
+.description--small {
+  font-size: 0.4vw;
+  font-weight: 400;
+  color: var(--darkgrey);
+  margin: 0 !important;
+}
+.description--medium {
+  font-size: 0.78vw;
+  font-weight: 400;
+  color: var(--darkgrey);
+  margin: 0 !important;
+}
+.description--large {
+  font-size: 0.8vw;
+  font-weight: 400;
+  color: var(--darkgrey);
+  margin: 0 !important;
+}

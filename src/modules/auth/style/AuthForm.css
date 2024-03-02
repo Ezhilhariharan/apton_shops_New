@@ -1,0 +1,9 @@
+.forgotPassword {
+  width: 100%;
+  text-align: right;
+  font-size: 0.775vw;
+  font-weight: 600;
+  color: var(--TextPrimary);
+  margin-top: 7px;
+  cursor: pointer;
+}

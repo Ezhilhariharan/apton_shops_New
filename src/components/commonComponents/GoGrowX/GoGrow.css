@@ -1,0 +1,139 @@
+.gg-wrapper {
+  width: 100%;
+  height: 19vh;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000 !important;
+  background: var(--background) !important;
+  /* padding: 0 !important; */
+  /* border: 1px solid red; */
+}
+
+.gg-header {
+  width: auto;
+  min-width: 90%;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 10px;
+  background: var(--background);
+  box-shadow: 0px 4px 8px 0px #2d303614;
+  border-radius: 10px;
+  z-index: 1000 !important;
+  overflow: hidden;
+
+}
+
+.gg-content {
+  width: 100%;
+  height: auto;
+  min-height: 70vh;
+  transform: translateY(92%);
+  transition: transform 1s ease-in-out;
+  background-color: var(--background);
+  box-shadow: 0px 4px 8px 0px #2d303614;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1000 !important;
+}
+
+.gg-wrapper.expanded .gg-content {
+  transform: translateY(6%);
+}
+
+.gg-hi {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--font-50);
+  display: flex;
+  align-items: center;
+  /* gap: 5px; */
+}
+
+.gg-hi > img {
+  width: 20px;
+  height: 20px;
+  background-color: transparent !important;
+  z-index: 30 !important;
+}
+
+.gg-hi > span {
+  font-size: 0.9vw;
+  font-weight: 600;
+  color: var(--textBlack);
+  padding: 0 5px;
+}
+
+.gg-header > img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  z-index: 30 !important;
+}
+
+.gg-footer > span {
+  color: var(--font-300);
+}
+
+.gg-textarea {
+  width: 100%;
+  resize: none;
+  height: auto;
+  outline: none;
+  border: none;
+  font-size: 0.75vw;
+  font-weight: 400;
+  color: var(--darkgrey);
+  padding-top: 20px;
+}
+
+.gg-textarea-wrap {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.gg-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  overflow: hidden;
+}
+
+.gg-footer > p {
+  margin-left: 0 !important;
+}
+
+.help-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.help-wrapper > img {
+  width: 40px;
+  height: 40px;
+}
+
+.help-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.help-wrap > span {
+  margin-left: 10px;
+  font-size: 1.3vw;
+  font-weight: 600;
+  color: var(--darkgrey);
+}
+
+.help-wrap > p {
+  font-size: 1.3vw;
+  font-weight: 600;
+  color: var(--textBlack);
+}

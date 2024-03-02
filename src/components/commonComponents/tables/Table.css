@@ -1,0 +1,102 @@
+.tableWrapper {
+  width: 100%;
+  height: 100%;
+  max-height: 90vh !important;
+  overflow: scroll;
+}
+
+.tableWrapper table {
+  border-collapse: separate !important;
+  border-spacing: 0 10px !important;
+  overflow: scroll;
+  position: relative;
+}
+
+.addIcon {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  z-index: 1000 !important;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.tableHeaderRow {
+  position: sticky;
+  top: 0;
+  z-index: 20 !important;
+  width: 100%;
+}
+
+.tableWrapper th {
+  width: 150px;
+  height: 40px;
+  font-size: 0.9vw !important;
+  font-weight: 600;
+  background: var(--BG-25);
+  color: var(--textBlack);
+}
+
+.listRow {
+  background: var(--background);
+  height: 70px;
+  cursor: pointer;
+}
+.status-complete {
+  font-size: 0.75vw;
+  font-weight: 400;
+}
+.tableWrapper td:first-child {
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.tableWrapper td:last-child {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+.rowBar {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  bottom: 10px;
+  width: 5px;
+  height: 45px;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+.firstColumnWrapper {
+  height: 50px;
+}
+.tableWrapper td {
+  font-size: 0.8vw !important;
+  font-weight: 400;
+  color: var(--textBlack);
+  vertical-align: middle !important;
+  text-align: center;
+  margin: auto;
+  /* border: 1px solid green !important; */
+  /* width: calc(100% / 4); */
+}
+.tableWrapper td:nth-child(1) {
+  padding: 10px 10px 10px 15px;
+  text-align: left;
+  width: 400px !important;
+  position: relative;
+  z-index: 1;
+  position: sticky;
+  left: 0;
+  background-color: var(--background);
+}
+.tableWrapper th:nth-child(1) {
+  width: 400px !important;
+  min-width: 400px !important;
+  /* text-align: left; */
+  padding-left: 10px;
+  z-index: 30 !important;
+  padding-top: 10px;
+  position: sticky;
+  left: 0;
+  background: var(--BG-25);
+  display: flex;
+  flex-direction: row;
+}

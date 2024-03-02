@@ -1,0 +1,39 @@
+.checkBoxContainer input[type='checkbox'] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 15px;
+  height: 15px;
+  border: 1.5px solid #898e99;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.checkBoxContainer input[type='checkbox']::before {
+  content: '';
+  width: 0.4em;
+  height: 0.45em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 0.7em 0.7em white;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+.checkBoxContainer input[type='checkbox']:checked::before {
+  transform: scale(1);
+}
+
+.checkBoxContainer input[type='checkbox']:checked {
+  background-color: var(--primary);
+  border: none;
+}

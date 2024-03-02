@@ -1,0 +1,29 @@
+.leftListLayout {
+  width: 12.7%;
+  min-width: 150px;
+  border-right: 1px solid var(--layoutBorder);
+  height: 100%;
+  background-color: var(--background);
+  padding: 10px;
+}
+.listText {
+  font-size: 0.85vw;
+  font-weight: 500;
+  padding: 5px 15px;
+  margin: 7px 0;
+  letter-spacing: 0.2px;
+  color: var(--textBlack);
+  cursor: pointer;
+}
+.active-listText {
+  background-color: var(--primaryBackground);
+  color: var(--TextPrimary) !important;
+  font-weight: 600 !important;
+  border-radius: 30px;
+}
+.listText:hover {
+  background-color: var(--primaryBackground);
+  color: var(--TextPrimary) !important;
+  font-weight: 600 !important;
+  border-radius: 30px;
+}

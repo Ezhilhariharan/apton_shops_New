@@ -1,0 +1,51 @@
+.instagramHeaderContainer {
+  display: flex;
+  /* margin-top: 0.5rem; */
+  height: 100%;
+  gap: 2rem;
+  min-height: 38%;
+  max-height: 40%;
+}
+.imageDescPostContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.chatContainer {
+  width: 50%;
+}
+
+.imageDescContainer {
+  width: 100%;
+  height: 77.1%;
+  border: 1px solid var(--border-50);
+  border-radius: 10px;
+  padding: 0.5rem;
+  box-shadow: 0 1px 2px 0px var(--border-50);
+  display: flex;
+  gap: 1.5rem;
+}
+
+.imageDescContainer .imageUploadBox {
+  flex: 3;
+}
+
+.imageDescContainer .descContainer {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 1.1% 0.5%;
+}
+
+.imageDescPostContainer .postCardListContainer {
+  height: 20%;
+}
+
+.instaTextArea {
+  min-height: 13vh !important;
+}

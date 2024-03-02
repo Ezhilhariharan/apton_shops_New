@@ -1,0 +1,104 @@
+.campaignTypes {
+  width: 14%;
+  height: 55px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border-50);
+  margin: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+.radioButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.campaignTypes:hover {
+  border-radius: 10px;
+  background: var(--background);
+  box-shadow: 0px 4px 30px 0px rgba(45, 48, 54, 0.1);
+}
+.campaignFormWrapper {
+  margin-bottom: 17px;
+}
+.createCampaignLabel {
+  font-size: 0.85vw;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: var(--textBlack);
+}
+
+.optional {
+  font-size: 0.75vw;
+  font-weight: 500;
+  color: var(--textBlack);
+}
+.explain-error {
+  color: var(--fieldWarning) !important;
+  font-weight: 500 !important;
+  font-size: 0.75rem !important;
+  margin-top: 5px !important;
+}
+.campaign-select-blur {
+  opacity: 0.3;
+}
+.inputFieldWrapper {
+  margin-top: 7px;
+}
+
+.inputFieldWrapper input {
+  &::placeholder {
+    font-size: 0.75vw;
+    font-weight: 400;
+    color: var(--font-400);
+  }
+}
+.typesText {
+  font-size: 0.7vw;
+  color: var(--textBlack);
+  font-weight: 700;
+  margin-left: 4px;
+}
+.footerText {
+  font-size: 0.8vw;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: var(--font-400);
+  margin-left: 7px;
+}
+.footerImgBig {
+  width: 35px;
+  height: 35px;
+  z-index: 200 !important;
+}
+
+.anotherClassName {
+  width: 25px !important;
+  height: 25px !important;
+}
+.addChannel {
+  width: 35px;
+  height: 35px;
+  z-index: 0 !important;
+  margin-left: -20px;
+}
+.footerImgSmall {
+  width: 25px;
+  height: 25px;
+}
+.footerBox {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+}
+.draft {
+  font-size: 0.8vw;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-right: 20px;
+}
+
+.footerBox .dropDown {
+  bottom: 35px;
+  left: -50px;
+}

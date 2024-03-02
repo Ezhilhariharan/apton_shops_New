@@ -1,0 +1,25 @@
+.reject .inactive {
+  color: #fca7a2;
+  background-color: #ffeeed;
+}
+.active {
+  color: #25c277;
+  background-color: #f0fdf4;
+}
+.inreview {
+  color: #f6a723;
+  background-color: #fffbeb;
+}
+.whatsapp {
+  color: #25c277;
+  background-color: #f0fdf4;
+}
+
+.facebook .instagram .linkedin {
+  color: #0064e1;
+  background-color: #e5f0fc;
+}
+.pinterest {
+  color: #df0022;
+  background-color: #fce6e9;
+}

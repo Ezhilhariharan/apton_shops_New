@@ -1,0 +1,67 @@
+.overViewContainer {
+  margin-top: 2.2%;
+}
+.overview-wrapper {
+  color: var(--textBlack);
+}
+.viewAnalyticsBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.8vw;
+  font-weight: 600;
+  color: var(--primary);
+  margin-right: 0.5%;
+  margin-bottom: 1.5%;
+  cursor: pointer;
+}
+.viewAnalyticsBtn > img {
+  margin: 5px;
+}
+.eventCardContainer {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 1px solid var(--border-50);
+  border-radius: 10px;
+}
+
+.eventCardContainer .cardItemContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 1.6% 15px;
+  width: 40%;
+
+  position: relative;
+}
+
+.eventCardContainer .cardItemContainer:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  width: 1px;
+  height: 50%;
+  background-color: var(--border-50);
+}
+
+.cardItemContainer .textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1vw;
+}
+.textContainer {
+  padding-left: 16px;
+}
+.textContainer .title {
+  font-size: 0.8vw;
+  font-weight: 600;
+}
+
+.textContainer .description {
+  font-size: 1vw;
+  font-weight: 700;
+}

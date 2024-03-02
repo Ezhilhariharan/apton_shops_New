@@ -1,0 +1,28 @@
+.priority-container {
+  box-shadow: 0px 4px 30px 0px #2d30361a;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 10px 10px 10px;
+}
+
+.priority-wrapper {
+  width: 110px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+}
+
+.priority-name {
+  padding: 3px 5px;
+  font-size: 0.75vw;
+  font-weight: 500;
+}
+
+.priority-line{
+  border-bottom: 0.5px solid var(--border-50);
+  
+}
+.priority-line:nth-child(6){
+  border-bottom: none;
+  
+}

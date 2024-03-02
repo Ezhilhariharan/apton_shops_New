@@ -1,0 +1,8 @@
+.status-item {
+  border-radius: 8px;
+  padding: 3px 5px;
+  text-align: center;
+  font-size: 0.73vw;
+  font-weight: 500;
+  width: 45px;
+}

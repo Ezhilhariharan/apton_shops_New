@@ -1,0 +1,136 @@
+.ant-checkbox-checked .ant-checkbox-inner {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.ant-checkbox-disabled .ant-checkbox-inner {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: var(--primary) !important;
+}
+
+.checkboxContent {
+  font-size: 0.63vw;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 0.7vw;
+  font-weight: 500;
+  color: var(--textBlack);
+  margin-top: 4px;
+}
+
+.textGreen {
+  font-size: 0.7vw;
+  font-weight: 500;
+  color: var(--primary);
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}
+
+.antdButton {
+  font-weight: 500;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+  color: var(--background) !important;
+  background-color: var(--primary) !important;
+  margin: 30px 0 20px 0;
+  font-size: 0.8vw;
+  padding: 10px 20px;
+}
+
+/* Signup step 3 */
+
+.step3Sentence {
+  margin-top: 30px !important;
+  color: var(--darkgrey);
+  font-weight: 400;
+  font-size: 0.7vw;
+  margin: 0;
+}
+
+.step3Email {
+  margin-top: 8px !important;
+  color: var(--darkgrey);
+  font-weight: 400;
+  font-size: 0.7vw;
+  margin: 0;
+}
+
+.redirect {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4px 0 0 0;
+}
+
+.redirect > a {
+  font-size: 0.7vw;
+  font-weight: 500;
+  color: var(--textBlack);
+}
+
+.timing {
+  display: flex;
+  flex-direction: row;
+}
+
+.timing > a {
+  font-size: 0.7vw;
+  font-weight: 500;
+  color: var(--textBlack);
+}
+
+.timing > p {
+  font-size: 0.7vw;
+  font-weight: 600;
+  color: var(--primary);
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.step2Wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* overflow-y: scroll; */
+  height: auto !important;
+}
+
+.step2Wrapper-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto !important;
+}
+
+/* Forget-Password */

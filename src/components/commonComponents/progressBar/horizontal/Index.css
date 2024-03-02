@@ -1,0 +1,15 @@
+.horProgressWrapper {
+  height: 5px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.horProgressBar {
+  height: 100%;
+}
+.progressStatus {
+  font-size: 0.6vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 1px;
+  color: var(--textBlack);
+}

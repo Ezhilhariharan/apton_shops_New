@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@modules/*": ["modules/*"],
+      "@layouts/*": ["layouts*"]
+    }
+  },
+  "include": [
+    "src/**/*.js",
+    "src/assets/icons/index.js",
+    "src/assets/images/index.js",
+    "src/modules/auth/components/HorizontalSteps.jsx",
+    "src/components/commonComponents/Cards/Card.jsx",
+    "src/components/commonComponents/Cards/Card.stories.js",
+    "src/components/commonComponents/Google/Google.jsx",
+    "src/components/commonComponents/status/Status.jsx",
+    "src/components/commonComponents/status/Status.stories.js",
+    "src/components/commonComponents/Terms & Conditions/Terms.jsx",
+    "src/components/commonComponents/Terms & Conditions/Terms.stories.js",
+    "src/components/commonComponents/Title/Title.jsx",
+    "src/components/commonComponents/Title/Title.stories.js",
+    "src/components/form/Button/Button.jsx",
+    "src/components/form/Button/Button.stories.js",
+    "src/components/form/Input/Input.jsx",
+    "src/components/form/Input/Input.stories.js",
+    "src/components/form/label/label.jsx",
+    "src/components/form/radio/RadioButton.jsx",
+    "src/constant/auth/auth.js",
+    "src/hooks/useGetApi.js",
+    "src/hooks/usePostApi.js",
+    "src/hooks/useResponsive.js",
+    "src/hooks/useToggle.js",
+    "src/layouts/authLayout/Index.jsx",
+    "src/layouts/appLayout/Index.jsx",
+    "src/modules/auth/pages/ForgotPassword.jsx",
+    "src/modules/auth/pages/ResetPassword.jsx",
+    "src/modules/auth/pages/Login.jsx",
+    "src/modules/auth/pages/SignUp.jsx",
+    "src/modules/auth/components/Step1.jsx",
+    "src/modules/auth/components/Step2.jsx",
+    "src/modules/auth/components/Step3.jsx",
+    "src/reduxToolkit/authSlice.js",
+    "src/modules/onboarding/components/VerticalSteps.jsx",
+    "src/components/commonComponents/create/Index.jsx",
+    "src/modules/OKR/pages/Index.jsx",
+    "src/components/commonComponents/leftListLayout/Index.jsx",
+    "src/components/commonComponents/tooltip/Tooltip.jsx",
+    "src/routes/Index.jsx"
+  ]
+}

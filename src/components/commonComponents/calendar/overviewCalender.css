@@ -1,0 +1,177 @@
+.overViewWrapper {
+  width: 100%;
+  height: auto;
+  background: var(--background);
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+.overViewWrapper .daysWrapper {
+  height: 50px;
+  border-bottom: 0.5px solid var(--border-50);
+}
+.overViewWrapper .weekDays {
+  border-right: 0.5px solid var(--border-50);
+  padding-left: 20px;
+  font-size: 0.7vw;
+  font-weight: 600;
+  color: var(--textBlack);
+}
+
+.overViewWrapper .weekDays:last-child {
+  border: none;
+}
+
+.plus-hover {
+  visibility: none;
+}
+
+.overViewWrapper .dateRow {
+  min-height: 150px;
+  height: auto;
+  max-height: 200px;
+  width: 100%;
+  border-bottom: 0.5px solid var(--border-50);
+}
+.overViewWrapper .individualDate {
+  border-right: 0.5px solid var(--border-50);
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+  padding: 7px;
+}
+.overViewWrapper .individualDate:last-child {
+  border: none;
+}
+.overViewWrapper .in-prev-month,
+.overViewWrapper .in-next-month {
+  color: var(--textBlack);
+  background: var(--BG-25);
+}
+
+/* calendarCard and boardCard*/
+.calendarCard {
+  border-radius: 10px;
+  border: 1px solid var(--border-50);
+  min-height: 58px;
+  background: var(--background);
+  box-shadow: 0px 1.5px 2px 0px rgba(16, 24, 40, 0.1);
+  padding: 6px 4px;
+}
+.boardCard {
+  border-radius: 10px;
+  border: 1px solid var(--border-50);
+  max-height: 109px;
+  background: var(--background);
+  box-shadow: 0px 1.5px 2px 0px rgba(16, 24, 40, 0.1);
+  padding: 6px 4px;
+}
+.calendarCard .verticalLine {
+  width: 3px;
+  height: 90%;
+  border-radius: 20px;
+  background: #f96056 !important;
+  margin-left: 0;
+}
+.boardCard .verticalLine {
+  width: 3px;
+  height: 80%;
+  border-radius: 20px;
+  background: #f96056 !important;
+}
+.taskName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90px;
+  font-size: 0.65vw;
+  font-weight: 500;
+  text-align: left;
+}
+.statusDay {
+  font-size: 0.6vw;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+.calendarCard .actionIcon {
+  width: 10px;
+  height: 10px;
+}
+.calendarCard .campaignActions,
+.boardCard .campaignActions {
+  font-size: 0.65vw;
+  font-weight: 600;
+  color: var(--font-400);
+  margin-left: 3px;
+}
+.calendarCard .multipleAvatar {
+  margin-left: -5px;
+}
+.positioningCalendarDate {
+  width: 90%;
+  bottom: 7px;
+  right: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.boardDate {
+  font-size: 0.6vw;
+  font-weight: 600;
+  color: var(--font-400);
+  margin: 0 3px;
+}
+.boardCard .content {
+  font-size: 0.7vw;
+  font-weight: 500;
+  color: var(--textBlack);
+  letter-spacing: 0.3px;
+}
+
+.createTaskCard {
+  border-radius: 10px;
+  min-height: 65px;
+  background: var(--background);
+  padding: 10px 15px;
+  width: 94%;
+}
+.createTaskInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 0.8vw;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: var(--background);
+}
+.createTaskInput::placeholder {
+  text-align: left;
+  color: var(--placeholder);
+  font-size: 0.8vw;
+}
+.boardWrapper .statusName {
+  font-size: 0.85vw;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: var(--textBlack);
+}
+
+/* calendar-post  */
+
+.calendar-post-time {
+  font-size: 0.62vw;
+  font-weight: 500;
+  color: var(--font-400);
+}
+
+.calendar-post {
+  font-size: 0.62vw;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+.card-post-menu {
+  display: none !important;
+}
+
+.calendarCard:hover .card-post-menu {
+  display: block !important;
+}

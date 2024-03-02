@@ -1,0 +1,127 @@
+/* .whatsappHeader {
+  width: 100%;
+  height: 65px;
+  background: #fff;
+  border-bottom: 1px solid #f0f1f2;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 2%;
+}
+
+.whatsappHeader > * {
+  width: 50%;
+}
+.whatsappAvatar {
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  border: 1px solid #25c277;
+}
+.whatsappCircle {
+  background: white;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.limitsAndRatings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  border: 1px solid var(--border-50);
+  border-radius: 10px;
+  padding: 0.1vw 0.8vw;
+}
+.greenMark {
+  background-color: var(--primary);
+  height: 8px;
+  width: 8px;
+  margin: auto 0;
+  border-radius: 2px;
+}
+.disconnectButton {
+  width: 7vw;
+  font-size: 0.75vw;
+  margin: auto 1%;
+  padding: 6px 6px;
+  border-radius: 6px;
+  font-weight: 400;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+  color: var(--white) !important;
+  background-color: #f96056 !important;
+} */
+
+.whatsappHeader {
+  width: 100%;
+  height: 8.5vh;
+  background: var(--textWhite);
+  border-bottom: 1px solid var(--font-50);
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0px 8px;
+  /* padding: 0 2%; */
+}
+/* 
+.whatsappHeader > * {
+  width: 50%;
+  padding-right: 10px;
+} */
+
+.whatsappAvatar {
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  border: 1px solid var(--borderPrimary);
+}
+.whatsappCircle {
+  background: var(--background);
+  border-radius: 50%;
+  border: 2px solid var(--background);
+}
+.limitsAndRatings {
+  height: 70%;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-50);
+  border-radius: 10px;
+  padding: 0.1vw 0.8vw;
+}
+.greenMark {
+  background-color: var(--primary);
+  height: 8px;
+  width: 8px;
+  margin: auto 10px;
+  border-radius: 2px;
+}
+.disconnectButton {
+  width: 7vw;
+  font-size: 0.75vw;
+  margin: auto 1%;
+  padding: 4px 5px 4px 2px;
+  border-radius: 6px;
+  font-weight: 400;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  letter-spacing: 0.02rem;
+  color: var(--white) !important;
+  background-color: var(--fontRed) !important;
+}
+/* .Fb-popover-container{
+  padding: 15px 10px;
+}
+.Fb-popover-container > p {
+  font-size: 0.73vw;
+  font-weight: 600;
+} */

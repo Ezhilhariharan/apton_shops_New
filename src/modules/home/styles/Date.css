@@ -1,0 +1,86 @@
+.date {
+  width: 30px;
+  height: 45px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  font-size: 12px;
+  padding: 5px 5px;
+}
+
+.date > .today {
+  border-radius: 50px;
+  width: 25px;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  font-size: 0.7vw;
+  font-weight: 500;
+  color: var(--textBlack);
+}
+.today--active {
+  background-color: var(--primaryBackground);
+  color: var(--primary) !important;
+  transition: all 0.3s ease;
+}
+.date--active {
+  background-color: var(--primaryBackground);
+  color: var(--primary) !important;
+  transition: all 0.3s ease;
+}
+
+.date--active > p {
+  color: var(--primary);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.date--active > .today {
+  color: var(--primary);
+  transition: all 0.3s ease;
+}
+
+.today--active > .today {
+  color: var(--primary) !important;
+  transition: all 0.3s ease;
+}
+
+.rotating-image1 {
+  transform: rotate(180deg);
+  width: 20px;
+}
+
+.rotating-image2 {
+  width: 20px;
+}
+
+.schedule {
+  font-size: 0.95vw;
+  font-weight: 600;
+  color: var(--textBlack);
+}
+
+.schedule-year {
+  font-size: 0.7vw;
+  font-weight: 400;
+  color: var(--font-400);
+}
+
+.day {
+  font-size: 0.65vw;
+  font-weight: 500;
+  color: var(--font-400);
+}
+
+.date--active > .day {
+  color: var(--primary);
+}
+
+.today--active > .day {
+  color: var(--primary);
+}

@@ -1,0 +1,31 @@
+.card-container {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.carousel-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.card {
+  height: 160px;
+  box-sizing: border-box;
+}
+.custom-arrow {
+  background-color: #dddada;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-arrow {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.prev-arrow {
+  position: absolute;
+  top: 50%;
+}

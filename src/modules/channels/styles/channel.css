@@ -1,0 +1,79 @@
+.btnContainer {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .connectButton {
+  width: 7vw;
+  font-size: 0.75vw;
+  margin: auto 1%;
+  padding: 6px 6px;
+  border-radius: 6px;
+  font-weight: 400;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+  color: var(--white) !important;
+  background-color: var(--primary) !important;
+} */
+
+.popupContainer {
+  width: 40%;
+  height: auto;
+  background: var(--appHeaderBG);
+  border-radius: 10px;
+  /* box-shadow: 0px 1px 2px 0px #00000050; */
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -40%);
+  padding: 1%;
+  border: 1px solid var(--red);
+}
+
+/* .popupListContainer {
+  width: 90%;
+  margin: 2% auto;
+  box-shadow: 0px 1.5px 2px 0px #1018281a;
+  border-radius: 10px;
+  padding: 2%;
+} */
+
+.popupList {
+  background: var(--channelButton);
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.popupItem {
+  height: auto;
+  border-radius: 10px;
+  background:var(--appHeaderBG);
+  padding: 1% 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ===== */
+
+.channelInfoSection {
+  height: 260px;
+}
+.channelInfoSection-left {
+  width: 48%;
+  /* border: 1px solid red; */
+}

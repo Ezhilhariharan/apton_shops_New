@@ -1,0 +1,10 @@
+.search-container  {
+    background: var(--channelButton);
+    color: var(--font-400);
+    padding-left: 10px ;
+    outline: none;
+    border: none;
+    font-size: 0.84vw;
+    font-weight: 500;
+  }
+  

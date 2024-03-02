@@ -1,0 +1,35 @@
+.statusList-container {
+  width: auto;
+  min-width: 150px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 4px 30px 0px #2d30361a;
+  border-radius: 10px;
+  /* z-index: 2000; */
+  position: absolute;
+  background-color: var(--white);
+}
+
+.statusList-wrapper {
+  border-radius: 5px;
+  padding: 3px 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8vw;
+  font-weight: 500;
+  color: var(--textWhite);
+
+}
+
+.todo-text-color {
+  color: var(--textBlack);
+}
+
+.statusList-line {
+  border-bottom: 0.5px solid var(--border-50);
+}
+
+

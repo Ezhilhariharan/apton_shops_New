@@ -1,0 +1,52 @@
+.posted-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.posted-image > img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.posted-image > iframe {
+  width: 290px;
+  height: 290px;
+  margin-bottom: 5px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.prev-next-icon {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.posted-image:hover .prev {
+  visibility: visible !important;
+}
+
+.posted-image:hover .next {
+  visibility: visible !important;
+}
+
+.prev-next-icon > .prev {
+  width: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  visibility: hidden !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.prev-next-icon > .next {
+  width: 40px !important;
+  padding: 5px;
+  visibility: hidden !important;
+  transition: all 0.3s ease-in-out;
+}
